@@ -5,7 +5,17 @@
 //test.append(div)
 //div.innerText = "Hello again!"
 //div.textContent = "Hello world 2"
+//const div = document.querySelector("div")
+//console.log(div.innerText)
+//console.log(div.textContent)
+const body = document.body
 const div = document.querySelector("div")
-console.log(div.innerText)
-console.log(div.textContent)
+const spanHi = document.querySelector("#hi");
+const spanBye = document.querySelector("#bye");
+spanBye.remove();
+div.appendChild(spanBye);
+
+
+
+
 
