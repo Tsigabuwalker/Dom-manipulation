@@ -21,6 +21,8 @@ console.log(spanHi.getAttribute);
 console.log(spanBye.getAttribute);
 spanHi.setAttribute("title", "Hello there");
 console.log(spanHi.getAttribute);
+console.log(spanHi.setAttribute("id", "nasan"));
+console.log(spanHi.getAttribute("id"));
 
 
 
