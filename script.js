@@ -12,8 +12,17 @@ const body = document.body
 const div = document.querySelector("div")
 const spanHi = document.querySelector("#hi");
 const spanBye = document.querySelector("#bye");
-spanBye.remove();
-div.appendChild(spanBye);
+//spanBye.remove();
+//div.appendChild(spanBye);
+//div.removeChild(spanHi);
+//console.log(spanHi.title)
+//console.log(spanBye.title)
+console.log(spanHi.getAttribute);
+console.log(spanBye.getAttribute);
+spanHi.setAttribute("title", "Hello there");
+console.log(spanHi.getAttribute);
+
+
 
 
 
